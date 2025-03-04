@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Georgia", Georgia, serif;
+    background-color: rgb(2, 24, 65);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Garamond", Garamond, serif;
+    font-size: 50px;
+    color: rgb(135, 199, 241);
+  }
+  h2 {
+    font-family: "Georgia", Georgia, serif;
+    color: rgb(209, 214, 241);
+  }
+
+input[type=text] {
+    width: 25%;
+    padding: 10px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #00032e;
+    outline: none;
+}
+
+input[type=char] {
+    width: 25%;
+    padding: 10px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #00032e;
+    outline: none;
+}
+
+input[type=int] {
+    width: 25%;
+    padding: 10px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #00032e;
+    outline: none;
+}
