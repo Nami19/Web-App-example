@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: linear-gradient(to bottom right, rgb(32, 44, 214), rgb(3, 65, 90));
+    height: 5vh;
+}
+
+.navbar {
+    max-width: 1350px;
+    height: 75px;
+    margin: auto;
+  
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.header-content {
+    background-image: linear-gradient(to bottom right, rgb(0, 119, 255), rgb(12, 60, 114));
+    height: 14vh;
+}
+
+.cosmic {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: bold;
+    padding: 18px;
+    float: left;
+}
+
+.menu {
+    height: 14px;
+    float: left;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 60, 114);
+}
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a2066;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cosmic {
+        font-size: 40px;
+    }
+
+    ul li {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .features {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .cosmic {
+        font-size: 30px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .features {
+        padding: 30px;
+    }
+
+    .welcome {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cosmic {
+        font-size: 24px;
+    }
+
+    ul li {
+        font-size: 10px;
+    }
+
+    .features {
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+.leftcolumn {   
+    float: left;
+    width: 50%;
+    margin-left: 50;
+  }
+  .rightcolumn {   
+    float: right;
+    width: 40%;
+    margin-right: 50;
+  }
+
+  .card {
+    background-color: rgb(49, 117, 196);
+    padding: 20px;
+    margin-left: 30;
+    margin-right: 30;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  body {
+    font-family: Arial;
+    padding: 0px;
+    background-color: rgb(8, 3, 31); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(49, 117, 196) , rgb(8, 7, 59));
+  }
+
+  .image {
+    width: 100%;
+    padding: 20px;
+  }
+  .image2 {
+    width: 60%;
+    padding: 10px;
+    margin-left: 135;
+  }
+
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
